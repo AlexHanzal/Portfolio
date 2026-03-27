@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Your Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Epilogue:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<!-- ============================================================
+     NAV
+     ============================================================ -->
+<nav>
+  <!-- 🎨 CUSTOMIZE: Change "YN" to your initials -->
+  <a href="#hero" class="nav-logo">AH</a>
+  <ul class="nav-links">
+    <li><a href="#about">O mně</a></li>
+    <li><a href="#work">Práce</a></li>
+    <li><a href="#projects">Projecty</a></li>
+    <li><a href="#contact">Kontakty</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+
+    <!-- 🎨 CUSTOMIZE: Change this tag line -->
+    <div class="hero-tag">Dostupný pro freelancing</div>
+
+    <!-- 🎨 CUSTOMIZE: Change your name and role -->
+    <h1>
+      Alex<br>
+      <span class="accent">Hanzal</span>
+    </h1>
+
+    <!-- 🎨 CUSTOMIZE: Write your one-line pitch -->
+    <p class="hero-sub">
+      Front-end developer zaměřený na tvorbu webů, pro menší firmy.
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        Moje práce
+      </a>
+      <a href="#contact" class="btn btn-ghost">Kontaktovat</a>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section id="about" class="reveal">
+
+    <div class="about-img-wrap">
+      <!-- 🎨 CUSTOMIZE: Replace with your photo URL, or remove this block -->
+      <div class="about-photo-placeholder">
+        <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+          <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+        </svg>
+        <span><img class="about-photo" src="https://cdn.discordapp.com/attachments/1292396085121257504/1487190230061813962/20260220_184532.jpg?ex=69c83d55&is=69c6ebd5&hm=2fc9c1db49d0f7f56b1715567db2862f0f6bb64c18e541a4eacae260f1fbbfdd&" alt="Alex Hanzal"></span>
+      </div>
+      <!-- To use a real photo, replace the placeholder above with:
+           <img class="about-photo" src="your-photo.jpg" alt="Your Name"> -->
+      <div class="about-accent-line"></div>
+    </div>
+
+    <div class="about-content">
+      <p class="section-label">O mně</p>
+
+      <!-- 🎨 CUSTOMIZE: Your heading -->
+      <h2>Building things<br>for the web.</h2>
+
+      <!-- 🎨 CUSTOMIZE: Your bio — 2–3 short paragraphs -->
+      <p>
+        Jsem prostý kluk z Jirkova, který se rozhodl stát programátorem, protože miluju logické výzvi a kreativitu, kterou programování nabízí. Baví mě vytvářet čisté a funkční weby, které jsou radost používat.
+      </p>
+      <br>
+      <p style="color: var(--muted); font-size: 0.92rem;">
+        Když neprogramuji, najdete mě nejspíš ve fitku, venku s kamarády, nebo ve škole učící se nové věci.
+      </p>
+
+      <!-- 🎨 CUSTOMIZE: Add/remove your skills -->
+      <div class="about-skills">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ============================================================
+       WORK / TIMELINE
+       ============================================================ -->
+  <section id="work" class="reveal">
+
+    <div class="work-header">
+      <div>
+        <p class="section-label">Můj příběh</p>
+        <h2>Začátek a<br> Cesta</h2>
+      </div>
+      <!-- 🎨 CUSTOMIZE: Link your CV -->
+    </div>
+
+    <div class="timeline">
+
+      <!-- 🎨 CUSTOMIZE: Add/remove timeline entries. Copy a block to add more. -->
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <div class="timeline-year">2023 — 2025</div>
+          <div class="timeline-company">sebevýuka a prvotní zkušenosti</div>
+        </div>
+        <div>
+          <div class="timeline-role">Front-End Developer</div>
+          <p class="timeline-desc">
+            Sám jsem se naučil programovat a během této doby jsem pracoval na několika osobních projektech, až do jednoho dne kdy mě oslovil učitel z mé základky a umožnil mně a mému kamarádovi zrealizovat aplikaci pro školu, která nám pomohla získat první zkušenosti s reálným vývojem a spoluprací s klientem.
+          </p>
+          <div class="timeline-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <div class="timeline-year">2025 - Dnes</div>
+          <div class="timeline-company">Návrat ke kořenům</div>
+        </div>
+        <div>
+          <div class="timeline-role">Front-End Developer</div>
+          <p class="timeline-desc">
+            Kvůli nástupu na střední školu jsem s programování přestal, ale po půlroce jsem se k němu vrátil a rozhodl to tentokrát dotáhnout ještě dál.
+          </p>
+          <div class="timeline-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROJECTS
+       ============================================================ -->
+  <section id="projects" class="reveal">
+    <p class="section-label">Moje projekty</p>
+    <h2>Projekty</h2>
+
+    <div class="projects-grid">
+
+      <!-- 🎨 CUSTOMIZE: Add/edit project cards. Copy a card to add more. -->
+
+      <div class="project-card">
+        <!-- 🎨 Replace placeholder with: <img class="project-img" src="screenshot.png" alt="Project Name"> -->
+        <div class="project-img-placeholder">01</div>
+        <div class="project-body">
+          <div class="project-title"></div>
+          <p class="project-desc">
+            místo pro první projekt
+          </p>
+          <div class="project-footer">
+            <div class="timeline-tags">
+            </div>
+            <div class="project-links">
+              <!-- 🎨 Update href values -->
+              <a href="#" class="project-link">
+                <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                Code
+              </a>
+              <a href="#" class="project-link">
+                <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <section id="contact" class="reveal">
+    <div class="contact-inner">
+
+      <div>
+        <p class="section-label">Napiš mi</p>
+        <h2>Pojďme<br>spolu<br>něco vytvořit</h2>
+
+        <div class="contact-links">
+
+          <!-- 🎨 CUSTOMIZE: Replace with your actual links -->
+
+          <a href="mailto:alexhanzalprace@gmail.com
+" class="contact-link">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/>
+            </svg>
+            
+            alexhanzalprace@gmail.com
+          </a>
+
+          <a href="https://github.com/AlexHanzal" target="_blank" class="contact-link">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+            github.com/AlexHanzal
+          </a>
+
+        </div>
+      </div>
+
+      <div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <!-- 🎨 CUSTOMIZE: Your name and year -->
+  <span>© 2026 Alex Hanzal</span>
+  <span style="color: var(--border);">Děláno s láskou</span>
+</footer>
+<script src="javascript.js" defer></script>
+</body>
+</html>
